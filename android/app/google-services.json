@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "998416061274",
+    "project_id": "spotify-c5298",
+    "storage_bucket": "spotify-c5298.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998416061274:android:606ab9f6d86c5de6f11963",
+        "android_client_info": {
+          "package_name": "com.spotify"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "998416061274-h2e6j50ngba8s7pioiu65arkc8kffvps.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.spotify",
+            "certificate_hash": "c5446eee97f173315c9dd1d98a5344e2d9bb4da4"
+          }
+        },
+        {
+          "client_id": "998416061274-7ihqqtfn3mdkhlokufg3lbmj4hamfr3p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6uaw1GPjhivte_iI2ddCQkp1cCWoCuIg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "998416061274-7ihqqtfn3mdkhlokufg3lbmj4hamfr3p.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "998416061274-t7o09dahqlkqi9d4smlu3hlr4j7fbu5q.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.Spotify"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

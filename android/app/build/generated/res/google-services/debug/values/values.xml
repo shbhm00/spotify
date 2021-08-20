@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">998416061274-7ihqqtfn3mdkhlokufg3lbmj4hamfr3p.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">998416061274</string>
+    <string name="google_api_key" translatable="false">AIzaSyB6uaw1GPjhivte_iI2ddCQkp1cCWoCuIg</string>
+    <string name="google_app_id" translatable="false">1:998416061274:android:606ab9f6d86c5de6f11963</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB6uaw1GPjhivte_iI2ddCQkp1cCWoCuIg</string>
+    <string name="google_storage_bucket" translatable="false">spotify-c5298.appspot.com</string>
+    <string name="project_id" translatable="false">spotify-c5298</string>
+</resources>

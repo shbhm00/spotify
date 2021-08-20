@@ -1,0 +1,14 @@
+com/spotify/MainApplication.java
+ com.spotify.MainApplication
+ com.spotify.MainApplication$1
+com/spotify/MainActivity.java
+ com.spotify.MainActivity
+com/spotify/BuildConfig.java
+ com.spotify.BuildConfig
+com/spotify/ReactNativeFlipper.java
+ com.spotify.ReactNativeFlipper
+ com.spotify.ReactNativeFlipper$1
+ com.spotify.ReactNativeFlipper$2
+ com.spotify.ReactNativeFlipper$2$1
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
