@@ -78,8 +78,9 @@ class Signin extends React.Component {
                   fontWeight="700"
                 />
                 <EyeToggle
-                  height={Platform.OS === 'ios' ? 20 : 20}
+                  height={Platform.OS === 'ios' ? 15 : 20}
                   right={20}
+                  bottom={10}
                   active={y => this.setState({eye_enable: y})}
                 />
               </View>

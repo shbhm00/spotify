@@ -27,6 +27,7 @@ export default class Eye extends React.Component {
           styles.linerColor,
           {top: vh(this.props.height)},
           {right: vw(this.props.right)},
+          {bottom: vh(this.props.bottom)},
         ]}>
         <TouchableOpacity onPress={this.active_pass}>
           <Image style={styles.eyeImage} source={this.state.eye} />
