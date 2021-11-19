@@ -13,7 +13,6 @@ import LinearGradient from 'react-native-linear-gradient';
 import {vw, vh, normalize} from '../dimension/dimension';
 import HeartToggle from '../customs/heart_toggle';
 import {connect} from 'react-redux';
-import {Add_Wishlist} from '../action/actionTypes';
 
 import {Wishlist, Rem_Wishlist} from '../action/index';
 export class Playlist extends React.Component {
@@ -50,7 +49,6 @@ export class Playlist extends React.Component {
     );
   };
   headerComponent = () => {
-    console.log('header rendered');
     return (
       <View style={styles.subContainer}>
         <View style={styles.headerContainer}>
@@ -76,30 +74,11 @@ export class Playlist extends React.Component {
           <Text style={styles.spotifyText}>Spotify</Text>
         </View>
         <Text style={styles.likes}>{this.album.numberOfLikes}</Text>
-        <View style={styles.multipleIcons}>
-          {/* <View style={styles.miniIcons}>
-                    <TouchableOpacity>
-                        <Image style={styles.iconImage} source={require('../assets/heart_download/heart.png')} />
-                    </TouchableOpacity>
-                    <TouchableOpacity>
-                        <Image style={styles.iconImage} source={require('../assets/heart_download/download.png')} />
-                    </TouchableOpacity>
-                    <TouchableOpacity>
-                        <Image style={styles.iconImage} source={require('../assets/heart_download/more.png')} />
-                    </TouchableOpacity>
-                </View> */}
-          {/* <View style={styles.playImage}>
-                    <TouchableOpacity>
-                        <Image style={styles.playButton} source={require('../assets/heart_download/play.png')} />
-                    </TouchableOpacity>
-                </View> */}
-        </View>
+        <View style={styles.multipleIcons}></View>
       </View>
     );
   };
   render() {
-    // console.log(this.props.album);
-    console.log('Screen rendered');
     return (
       <View style={styles.container}>
         <LinearGradient

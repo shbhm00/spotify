@@ -1,6 +1,6 @@
 import {Add_Wishlist, Remove_Wishlist} from '../action/actionTypes';
 const initialState = {
-  wishlist: ['1'],
+  wishlist: [],
   isLoading: false,
 };
 export const ADD_WISHLIST = (state = initialState, action) => {

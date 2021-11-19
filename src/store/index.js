@@ -20,7 +20,7 @@ const persistConfig = {
   key: 'root',
   timeout: 0,
   storage: AsyncStorage,
-  whitelist: ['authReducer'],
+  whitelist: ['authReducer', 'ADD_WISHLIST'],
 };
 
 const persistedReducer = persistReducer(persistConfig, reducers);
