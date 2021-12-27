@@ -17,8 +17,9 @@ Attaching some screenshots :---
 
 <img src="https://user-images.githubusercontent.com/62417399/147446513-9c3fa3f8-0bea-4c99-b1bd-e6f50b63c3c5.png" width="40%" height="40%"/>
 
-
-===> Using redux for saving email and password for the first time.
-===> You don't have to login again if you are using same credentials.
-===> Using redux for moving data from one screen to another.
-===> Using custom-build dimension file for responsiveness.
+<ul>
+  <li>Using redux for saving email and password for the first time.
+  <li>You don't have to login again if you are using same credentials.
+    <li>Using redux for moving data from one screen to another.
+      <li> Using custom-build dimension file for responsiveness.
+</ul>
