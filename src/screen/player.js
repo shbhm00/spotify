@@ -10,6 +10,7 @@ import {
 import SoundPlayer from 'react-native-sound-player';
 import Playlist from '../dummy_data/playlisdata';
 import {vh, vw, normalize} from '../dimension/dimension';
+import Slider from '@react-native-community/slider';
 export default class Player extends React.Component {
   state = {
     sound: false,
@@ -19,6 +20,7 @@ export default class Player extends React.Component {
       // or play from url
       SoundPlayer.playUrl(Playlist[0].url);
       this.setState({sound: !this.state.sound});
+      // this.getInfo();
     } catch (e) {
       console.log(`cannot play the sound file`, e);
     }
@@ -27,6 +29,15 @@ export default class Player extends React.Component {
     SoundPlayer.pause();
     this.setState({sound: !this.state.sound});
   };
+  async getInfo() {
+    // You need the keyword `async`
+    try {
+      const info = await SoundPlayer.getInfo(); // Also, you need to await this because it is async
+      console.log('getInfo', info); // {duration: 12.416, currentTime: 7.691}
+    } catch (e) {
+      console.log('There is no song playing', e);
+    }
+  }
   render() {
     return (
       <View style={styles.container}>
@@ -42,6 +53,14 @@ export default class Player extends React.Component {
         </View>
         <View style={styles.subContainer}>
           <Image style={styles.songImage} source={{uri: Playlist[0].artwork}} />
+          <Slider
+            style={{width: 200, height: 40}}
+            minimumValue={0}
+            maximumValue={Playlist[0].duration}
+            minimumTrackTintColor="red"
+            maximumTrackTintColor="green"
+            // value={SoundPlayer.getInfo._W.currentTime}
+          />
           <View style={styles.iconContainer}>
             <TouchableOpacity onPress={() => alert('Coming Soon')}>
               <Image
